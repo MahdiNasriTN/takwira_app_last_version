@@ -1,0 +1,7 @@
+class Booking {
+  final String id;
+  final DateTime start;
+  final DateTime end;
+
+  Booking({required this.id, required this.start, required this.end});
+}
